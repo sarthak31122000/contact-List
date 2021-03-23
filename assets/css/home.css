@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+.contact {
+    display: flex;
+    background-color: blue;
+    width: 35%;
+    margin: 1rem;
+    margin-left: 30rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.parent-List {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-grow: 4;
+    /* border: 1px solid black; */
+}
+
+.delete-button {
+    flex-grow: 1;
+    align-self: center;
+    /* justify-self: center; */
+}
+
+.delete-button a {
+    color: aquamarine;
+}
+
+.delete-button a:hover {
+    color: red;
+}
+
+.contact:hover {
+    background-color: violet;
+}
+
+.parent-List:hover p {
+    color: darkmagenta;
+}
+
+.parent-List p {
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.form-1 {
+    text-align: center;
+}
+
+.form-1 input {
+    background-color: whitesmoke;
+    height: 2rem;
+    width: 12rem;
+    margin: 1rem 1rem 1rem;
+    /* text-decoration: none; */
+    border: none;
+    text-align: center;
+    border-radius: 1rem;
+    outline: none;
+    box-shadow: 1px;
+}
+
+.form-1 button {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    /* outline: none; */
+    border: none;
+    background: slategrey;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
